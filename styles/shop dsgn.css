@@ -1,0 +1,154 @@
+/* All bodyy sectiion design */
+ /* all margin use (*margin element) */
+ * {
+     margin: 0;
+     padding: 0;
+ }
+
+ body {
+
+     font-family: 'Lato', sans-serif;
+     font-size: 20px;
+     font-weight: 600;
+     color: rgba(30, 30, 30, 0.6);
+ }
+
+ .btn {
+
+     padding: 20px 43px;
+     font-size: 18px;
+     font-weight: 600;
+     border-radius: 8px;
+     border: none;
+
+ }
+
+ .btn-coloure {
+     background: #E55473;
+     color: white;
+ }
+
+ /* main head section*/
+ #main-heading {
+    background: #E554731A;
+    height: auto
+
+}
+.main-heading-container{
+
+   display: flex;
+   justify-content: space-between;
+   width: 80%;
+   margin: 0 auto;
+   align-items: center;
+   gap: 150px;
+   padding-top: 45px;
+
+}
+
+ /* contant arear modde only h1  */
+
+ .content-area h1{
+    font-size: 56px;
+    text-align: left;
+}
+/* containt arear modde only paragap */
+.content-area p{
+    padding: 32px 0px;
+    text-align: left;
+}
+ /* head er modde image size */
+ .header-img{
+    /* max-height: 500px;  */
+    width: 50%;
+ }
+  
+ .content-area{
+    width: 50%;
+ }
+ /* style */
+ .title{
+    color: #191919;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 900;
+
+
+ }
+  
+ /* main style mid */
+
+ .main-section{
+    margin-top: 100px;
+}
+    /* Image gallery styles*/
+.img-mid-gallery{
+    width: 80%;
+    margin: auto;
+}
+.text-section-featured p{
+    text-align: center;
+    padding: 30px 0px;
+    
+}
+.text-section-featured h2 {
+    /* text-align: center;
+    padding: 30px 0px; */
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.text-section-featured{
+    /* display: grid;
+    margin: auto; */
+    text-align: center;
+    text-underline-position: auto;
+}
+
+.img-gallery{
+    display: flex;
+    justify-content: space-between;
+}
+
+.img-box{
+    width: 350px;
+}
+.img-box a{
+    text-align: center;
+    display: block;
+    color: #272727;
+    margin-top: 32px;
+    font-weight: 700;
+}
+.round-img-box{
+    border-radius: 200px 200px 0px 0px;
+    padding: 30px 30px 0px 30px;
+    display: flex;
+   margin-right: 20px;
+    background: rgba(167, 33, 98, 0.15);
+    height: 350px;
+}
+.round-img-box img{
+    width: 90%;
+    /* height: 299px; */
+    margin-top: 70px;
+}
+.our-support-section{
+    margin: 100px 0px;
+}
+.support-container{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+}
+.support-box{
+    padding: 40px;
+}
+
+ 
+

@@ -21,6 +21,7 @@ body {
     border-radius: 8px;
     border: none;
 
+
 }
 
 .btn-coloure {
@@ -102,6 +103,7 @@ body {
     padding: 30px 0px; */
     font-weight: bold;
     font-size: 40px;
+    font: bolder;
 }
 
 .text-section-featured {
@@ -235,31 +237,36 @@ p {
 .section-title {
     text-align: center;
 }
+
 /* <!-- lottary copon--> */
 
 
-.copon-offer-section{
+.copon-offer-section {
     padding-bottom: 100px;
 }
-.copon-container{
+
+.copon-container {
     width: 80%;
     margin: 0 auto;
-    
+
     padding-bottom: 100px;
     padding-top: 100px;
     border-radius: 8px;
-    background-image: url("../Flower\ Asset/Rectangle 9.png"); 
+    background-image: url("../Flower\ Asset/Rectangle 9.png");
 
 }
-.-container p{
+
+.-container p {
     padding: 30px 0px 40px;
 }
-.copon-container form{
+
+.copon-container form {
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.copon-container input{
+
+.copon-container input {
     border: none;
     width: 600px;
     height: 64px;
@@ -267,17 +274,20 @@ p {
     padding-left: 20px;
     border-radius: 8px;
 }
+
 /* last section footer */
-.footer-section{
+.footer-section {
     padding: 50px 0px;
     background: #111010;
     color: rgba(255, 255, 255, 0.90);
 }
-.footer-container{
+
+.footer-container {
     width: 30%;
     margin: 0 auto;
 }
-.footer-container h2{
+
+.footer-container h2 {
     color: white;
     padding-bottom: 20px;
 }
